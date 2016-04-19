@@ -64,14 +64,11 @@ pattern <- '*\\.data\\b'; byvar <- c('unitid', 'year')
 inst <- merge.ipeds(pattern = pattern, byvar = byvar)
 
 ## REPORT CATEGORIES -----------------------------------------------------------
-##
-## 1 = Public 2 year (>= 90% of degrees at Associate’s or certificate level)
+## 1 = Public 2 year (>= 50% of degrees at Associate’s or certificate level)
 ## 2 = Public Non-Doctoral (all other 4-years)
 ## 3= Public Doctoral (includes extensive and intensive) 4-year
 ## 4 = Private Non-Doctoral (as above)
 ## 5 = Private Doctoral (as above)
-## 
-## 
 ## -----------------------------------------------------------------------------
 
 ## Initialize grouping
