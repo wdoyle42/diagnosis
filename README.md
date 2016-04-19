@@ -25,5 +25,7 @@ comparing net price with income for all 50 states.
 6. Run the state_grants.r file. This will create a file for grant aid
 per fte in public and private institutions. 
 7. Run the loans.r file. This will create a file for loans per fte.
+8. Tech college data for three states (GA, OK, TN) can be created by
+   running the _tech files for these states. 
  
  
