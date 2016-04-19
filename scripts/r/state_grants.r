@@ -7,10 +7,17 @@
 
 rm(list=ls())
 
-
+## Libraries
 library(dplyr)
 library(readxl)
 library(tidyr)
+
+
+## data dirs
+cddir <- '../../data/acs/'
+mddir <- '../../data/misc/'
+addir <- '../../data/analysis/'
+rddir<-'../../data/ipeds/'
 
 ## Constants
 
@@ -88,14 +95,13 @@ for (year in c(2004,2007,2013)) {
         gather(key=aidtype,value=aid,-statename,-year,-stabbr)
 
     pub_aid<-rbind(pub_aid,public_aid)
-
     
 }
 
 
 ## Merge with FTE
 
-fte2<-read.csv("../../data/analysis/fte_two_sector.csv")
+fte2<-read.csv(paste0(addir,"fte_two_sector.csv"))
 
 fte2<-filter(fte2,group==1&stabbr%in%statelist)
 
@@ -122,7 +128,7 @@ pub_aid<-
             mutate(ranking=rank(-aid_fte))
 
 ##Output File
-write.csv(pub_aid,file="../../data/analysis/pub_aid.csv",row.names=FALSE)
+write.csv(pub_aid,file=paste0(addir,"pub_aid.csv"),row.names=FALSE)
 
 ##Privates
 
@@ -178,7 +184,7 @@ for (year in c(2004,2007,2013)) {
 
 ## Merge with FTE
 
-fte2<-read.csv("../../data/analysis/fte_two_sector.csv")
+fte2<-read.csv(paste0(addir,"fte_two_sector.csv"))
 
 fte2<-filter(fte2,group==2&stabbr%in%statelist)
 
@@ -205,4 +211,5 @@ priv_aid<-
             mutate(ranking=rank(-aid_fte))
 
 
-write.csv(priv_aid,file="../../data/analysis/priv_aid.csv")
+write.csv(priv_aid,file=paste0(addir,"priv_aid.csv"))
+
