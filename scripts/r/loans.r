@@ -19,7 +19,6 @@ rm(list=ls())
 
 ## libraries
 require(dplyr)
-require(xlsx)
 
 ## data dirs
 cddir <- '../../data/acs/'
@@ -121,9 +120,7 @@ inst1$loan_fte<-inst1$state_total_loan/inst1$state_total_ug
 
 ## Calculate loans/fte
 
-write.csv(inst1,file="../../output/tables/csv/loans_overall.csv")
-
-write.xlsx(inst1,file="../../output/tables/xlsx/loans.xlsx",sheetName="State Total")
+write.csv(inst1,file=paste0(addir,"loans_overall.csv"))
 
 inst<-ungroup(inst)
 
@@ -137,10 +134,5 @@ inst2<-inst %>%
 ## Calculate loans/fte
 inst2$loan_fte<-inst2$sector_total_loan/inst2$sector_total_ug
    
-write.csv(inst2,file="../../output/tables/csv/loans_sector.csv")
-
-write.xlsx(inst2,
-           file="../../output/tables/xlsx/loans.xlsx",
-           sheetName="Sector Total",
-           append=TRUE)
+write.csv(inst2,file=paste0(addir,"loans_sector.csv"))
 
