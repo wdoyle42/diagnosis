@@ -1,12 +1,11 @@
 ################################################################################
-## State Loans
-## Getting state loan files in shape
+## State Grants
+## Getting state grants files in shape
 ## Will Doyle
 ## 2/26/16
 ################################################################################
 
 rm(list=ls())
-
 
 
 library(dplyr)
@@ -41,7 +40,7 @@ changestates<-c("Alabama",
 
 ## read in statename data
 statename<-read.csv("../../data/misc/statename.csv")
-statename<-select(statename,-c)
+##statename<-select(statename,-c)
 
 pub_aid<-NULL
 ## set year, later loop
@@ -121,24 +120,6 @@ pub_aid<-
     pub_aid%>%
         group_by(year,aidtype) %>%
             mutate(ranking=rank(-aid_fte))
-
-
-
-
-## Visual checkes
-
-pub_aid%>%
-    filter(aidtype=="need_only"&year==2013)%>%
-        arrange(-aid_fte)%>%
-            select(stabbr,aid_fte)%>%
-            print(n=50)
-
-
-pub_aid%>%
-    filter(aidtype=="other"&year==2013)%>%
-        arrange(-aid_fte)%>%
-            select(stabbr,aid_fte)%>%
-                print(n=50)
 
 ##Output File
 write.csv(pub_aid,file="../../data/analysis/pub_aid.csv",row.names=FALSE)
@@ -223,19 +204,5 @@ priv_aid<-
         group_by(year,aidtype) %>%
             mutate(ranking=rank(-aid_fte))
 
-
-## Visual Checks
-priv_aid%>%
-    filter(aidtype=="need_only"&year==2013)%>%
-        arrange(-aid_fte)%>%
-            select(stabbr,aid_fte,ranking)%>%
-            print(n=50)
-
-
-priv_aid%>%
-    filter(aidtype=="other"&year==2013)%>%
-        arrange(-aid_fte)%>%
-            select(stabbr,aid_fte,ranking)%>%
-            print(n=50)
 
 write.csv(priv_aid,file="../../data/analysis/priv_aid.csv")
