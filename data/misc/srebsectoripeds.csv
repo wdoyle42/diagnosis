@@ -1,0 +1,737 @@
+"","instnm","sector","unitid"
+"1","Abraham Baldwin Agricultural College",22,138558
+"2","Academy of Careers and Technology",69,237729
+"3","Aiken Technical College",22,217615
+"4","Alabama A & M University",43,100654
+"5","Alabama Southern Community College",23,101949
+"6","Alabama State University",44,100724
+"7","Alamance Community College",22,199786
+"8","Albany State University",44,138716
+"9","Albany Technical College",61,138682
+"10","Alcorn State University",44,175342
+"11","Allegany College of Maryland",22,161688
+"12","Altamaha Technical College",61,366447
+"13","Alvin Community College",21,222567
+"14","Amarillo College",21,222576
+"15","Angelina College",21,222822
+"16","Angelo State University",43,222831
+"17","Anne Arundel Community College",21,161767
+"18","Appalachian State University",43,197869
+"19","Arkansas Northeastern College",23,107327
+"20","Arkansas State University-Beebe",22,106449
+"21","Arkansas State University-Newport",23,440402
+"22","Arkansas Tech University",44,106467
+"23","Armstrong Atlantic State University",44,138789
+"24","Asheville-Buncombe Technical Community College",21,197887
+"25","Ashland Community and Technical College",22,156231
+"26","Athens State University",46,100812
+"27","Athens Technical College",61,246813
+"28","Atlanta Technical College",61,138840
+"29","Auburn University",41,100858
+"30","Auburn University at Montgomery",44,100830
+"31","Augusta State University",45,138983
+"32","Augusta Technical College",61,138956
+"33","Austin Community College District",21,222992
+"34","Austin Peay State University",43,219602
+"35","Autry Technology Center",62,365213
+"36","Bainbridge College",22,139010
+"37","Baltimore City Community College",22,161864
+"38","Baton Rouge Community College",21,437103
+"39","Beaufort County Community College",23,197966
+"40","Ben Franklin Career Center",69,237172
+"41","Bevill State Community College",22,102429
+"42","Big Sandy Community and Technical College",22,157553
+"43","Bishop State Community College",22,102030
+"44","Black River Technical College",23,106625
+"45","Bladen Community College",23,198011
+"46","Blinn College",21,223427
+"47","Blue Ridge Community College",22,198039
+"48","Blue Ridge Community College",22,231536
+"49","Blue Ridge Community and Technical College",23,446774
+"50","Bluefield State College",46,237215
+"51","Bluegrass Community and Technical College",21,157173
+"52","Bossier Parish Community College",22,158431
+"53","Bowie State University",44,162007
+"54","Brazosport College",29,223506
+"55","Bridgemont Community and Technical College",23,445674
+"56","Brookhaven College",21,223524
+"57","Broward College",21,132709
+"58","Brunswick Community College",23,198084
+"59","Cabell County Career Technology Center",69,237242
+"60","Caddo Kiowa Technology Center",62,364946
+"61","Cameron University",45,206914
+"62","Canadian Valley Technology Center",61,365374
+"63","Cape Fear Community College",21,198154
+"64","Carl Albert State College",23,206923
+"65","Carroll Community College",22,405872
+"66","Carteret Community College",23,198206
+"67","Carver Career Center",69,430795
+"68","Catawba Valley Community College",22,198233
+"69","Central Alabama Community College",22,100760
+"70","Central Carolina Community College",22,198251
+"71","Central Carolina Technical College",22,218858
+"72","Central Georgia Technical College",61,140304
+"73","Central Piedmont Community College",21,198260
+"74","Central Technology Center",62,246017
+"75","Central Texas College",21,223816
+"76","Central Virginia Community College",22,231697
+"77","Chattahoochee Technical College",61,140331
+"78","Chattahoochee Valley Community College",23,101028
+"79","Chattanooga State Community College",62,219824
+"80","Chesapeake College",23,162168
+"81","Chipola College",29,133021
+"82","Chisholm Trail Technology Center",62,375656
+"83","Christopher Newport University",45,231712
+"84","Cisco College",22,223898
+"85","Clarendon College",23,223922
+"86","Clemson University",41,217882
+"87","Cleveland Community College",22,198321
+"88","Cleveland State Community College",22,219879
+"89","Coahoma Community College",23,175519
+"90","Coastal Bend College",22,223320
+"91","Coastal Carolina Community College",22,198330
+"92","Coastal Carolina University",45,218724
+"93","College of Central Florida",21,132851
+"94","College of Charleston",43,217819
+"95","College of Coastal Georgia",22,139250
+"96","College of Southern Maryland",21,162122
+"97","College of William and Mary",42,231624
+"98","College of the Albemarle",23,197814
+"99","College of the Mainland",22,226408
+"100","College of the Ouachitas",23,107521
+"101","Collin County Community College District",21,247834
+"102","Columbia State Community College",22,219888
+"103","Columbus State University",44,139366
+"104","Columbus Technical College",61,139357
+"105","Concord University",46,237330
+"106","Connors State College",23,206996
+"107","Copiah-Lincoln Community College",22,175573
+"108","Coppin State University",44,162283
+"109","Cossatot Community College of the University of Arkansas",23,106795
+"110","Craven Community College",22,198367
+"111","Crowley's Ridge College",69,106810
+"112","Dalton State College",29,139463
+"113","Danville Community College",22,231882
+"114","Davidson County Community College",22,198376
+"115","Daytona State College",29,133386
+"116","Del Mar College",21,224350
+"117","Delaware State University",44,130934
+"118","Delaware Technical Community College-Owens",22,130891
+"119","Delaware Technical Community College-Stanton/Wilmington",21,130916
+"120","Delaware Technical Community College-Terry",22,130907
+"121","Delgado Community College",21,158662
+"122","Delta State University",44,175616
+"123","Denmark Technical College",23,217989
+"124","Durham Technical Community College",22,198455
+"125","Dyersburg State Community College",22,220057
+"126","East Arkansas Community College",23,106883
+"127","East Carolina University",43,198464
+"128","East Central Community College",22,175643
+"129","East Central University",45,207041
+"130","East Mississippi Community College",22,175652
+"131","East Tennessee State University",43,220075
+"132","Eastern Kentucky University",43,156620
+"133","Eastern Oklahoma County Technology Center",62,418348
+"134","Eastern Oklahoma State College",23,207050
+"135","Eastern Shore Community College",23,232052
+"136","Eastern West Virginia Community and Technical College",23,438708
+"137","Eastfield College",21,224572
+"138","Edgecombe Community College",22,198491
+"139","Edison State College",29,133508
+"140","El Centro College",21,224615
+"141","El Paso Community College",21,224642
+"142","Elizabeth City State University",46,198507
+"143","Elizabethtown Community and Technical College",22,156648
+"144","Enterprise State Community College",22,101143
+"145","Fairmont State University",45,237367
+"146","Fayetteville State University",44,198543
+"147","Fayetteville Technical Community College",21,198534
+"148","Florence-Darlington Technical College",22,218025
+"149","Florida Atlantic University",42,133669
+"150","Florida Gateway College",22,135160
+"151","Florida Gulf Coast University",44,433660
+"152","Florida International University",41,133951
+"153","Florida Keys Community College",23,133960
+"154","Florida State College at Jacksonville",29,133702
+"155","Florida State University",41,134097
+"156","Forsyth Technical Community College",21,198552
+"157","Fort Valley State University",45,139719
+"158","Francis Marion University",45,218061
+"159","Francis Tuttle Technology Center",61,245999
+"160","Frank Phillips College",23,224891
+"161","Fred W Eberle Technical Center",69,237844
+"162","Frederick Community College",22,162557
+"163","Frostburg State University",44,162584
+"164","Gadsden State Community College",21,101240
+"165","Gainesville State College",29,139773
+"166","Galveston College",23,224961
+"167","Garnet Career Center",69,431169
+"168","Garrett College",23,162609
+"169","Gaston College",21,198570
+"170","Gateway Community and Technical College",61,157438
+"171","George C Wallace State Community College-Dothan",22,101286
+"172","George C Wallace State Community College-Selma",23,101301
+"173","George Mason University",41,232186
+"174","Georgia Gwinnett College",49,447689
+"175","Georgia Health Sciences University",49,140401
+"176","Georgia Highlands College",22,139700
+"177","Georgia Northwestern Technical College",61,139384
+"178","Georgia Perimeter College",21,244437
+"179","Georgia Piedmont Technical College",61,244446
+"180","Georgia Southern University",43,139931
+"181","Georgia Southwestern State University",45,139764
+"182","Georgia State University",41,139940
+"183","Germanna Community College",22,232195
+"184","Glenville State College",46,237385
+"185","Gordon College",29,139968
+"186","Gordon Cooper Technology Center",62,375683
+"187","Grambling State University",44,159009
+"188","Grayson College",22,225070
+"189","Great Plains Technology Center",62,364548
+"190","Green Country Technology Center",62,428019
+"191","Greenville Technical College",21,218113
+"192","Guilford Technical Community College",21,198622
+"193","Gwinnett Technical College",61,140012
+"194","Hagerstown Community College",22,162690
+"195","Halifax Community College",23,198640
+"196","Harford Community College",22,162706
+"197","Haywood Community College",22,198668
+"198","Hazard Community and Technical College",23,156790
+"199","Henderson Community College",23,156851
+"200","Henderson State University",44,107071
+"201","High Plains Technology Center",62,208053
+"202","Hill College",22,225371
+"203","Hillsborough Community College",21,134495
+"204","Hinds Community College",21,175786
+"205","Holmes Community College",22,175810
+"206","Hopkinsville Community College",22,156860
+"207","Horry-Georgetown Technical College",21,218140
+"208","Houston Community College",21,225423
+"209","Howard College",22,225520
+"210","Howard Community College",21,162779
+"211","Indian Capital Technology Center-Muskogee",62,418296
+"212","Indian Capital Technology Center-Sallisaw",62,421540
+"213","Indian Capital Technology Center-Stilwell",62,421559
+"214","Indian Capital Technology Center-Tahlequah",62,208026
+"215","Indian River State College",29,134608
+"216","Isothermal Community College",22,198710
+"217","Itawamba Community College",21,175829
+"218","J F Drake State Community and Technical College",62,101462
+"219","J F Ingram State Technical College",62,101471
+"220","Jackson State Community College",22,220400
+"221","Jackson State University",42,175856
+"222","Jacksonville State University",43,101480
+"223","James H Faulkner State Community College",22,101161
+"224","James Madison University",43,232423
+"225","James Rumsey Technical Institute",69,237473
+"226","James Sprunt Community College",23,198729
+"227","Jefferson Community and Technical College",21,156921
+"228","Jefferson Davis Community College",23,101499
+"229","Jefferson State Community College",21,101505
+"230","John C Calhoun State Community College",21,101514
+"231","John Tyler Community College",22,232450
+"232","Johnston Community College",22,198774
+"233","Jones County Junior College",22,175883
+"234","Kennesaw State University",44,140164
+"235","Kentucky State University",44,157058
+"236","Kiamichi Technology Center-Atoka",62,375692
+"237","Kiamichi Technology Center-Durant",62,375708
+"238","Kiamichi Technology Center-Hugo",62,375717
+"239","Kiamichi Technology Center-Idabel",62,375735
+"240","Kiamichi Technology Center-McAlester",62,375726
+"241","Kiamichi Technology Center-Poteau",62,375744
+"242","Kiamichi Technology Center-Spiro",62,375753
+"243","Kiamichi Technology Center-Stigler",62,405748
+"244","Kiamichi Technology Center-Talihina",62,375762
+"245","Kilgore College",21,226019
+"246","Lake-Sumter Community College",22,135188
+"247","Lamar Institute of Technology",22,441760
+"248","Lamar State College-Orange",23,226107
+"249","Lamar State College-Port Arthur",23,226116
+"250","Lamar University",43,226091
+"251","Lander University",46,218229
+"252","Langston University",45,207209
+"253","Lanier Technical College",61,140243
+"254","Laredo Community College",21,226134
+"255","Lawson State Community College-Birmingham Campus",22,101569
+"256","Lee College",22,226204
+"257","Lenoir Community College",22,198817
+"258","Lindsey Hopkins Technical Education Center",69,135294
+"259","Lone Star College System",21,227182
+"260","Longwood University",44,232566
+"261","Lord Fairfax Community College",22,232575
+"262","Lorenzo Walker Institute of Technology",69,133155
+"263","Louisiana State University Health Sciences Center-New Orleans",49,159373
+"264","Louisiana State University and Agricultural & Mechanical College",41,159391
+"265","Louisiana Tech University",42,159647
+"266","Lurleen B Wallace Community College",23,101602
+"267","Macon State College",46,140322
+"268","Madisonville Community College",22,157304
+"269","Marion Military Institute",49,101648
+"270","Marshall University",43,237525
+"271","Martin Community College",23,198905
+"272","Mayland Community College",23,198914
+"273","Maysville Community and Technical College",22,157331
+"274","McDowell Technical Community College",23,198923
+"275","McLennan Community College",21,226578
+"276","McNeese State University",44,159717
+"277","Medical University of South Carolina",49,218335
+"278","Meridian Community College",22,175935
+"279","Meridian Technology Center",62,365480
+"280","Metro Technology Centers",61,363165
+"281","Miami Dade College",29,135717
+"282","Mid-America Technology Center",62,418320
+"283","Mid-Del Technology Center",62,431017
+"284","Mid-South Community College",23,107318
+"285","Middle Georgia College",22,140483
+"286","Middle Georgia Technical College",61,140085
+"287","Middle Tennessee State University",43,220978
+"288","Midland College",29,226806
+"289","Midlands Technical College",21,218353
+"290","Midwestern State University",43,226833
+"291","Mineral County Vocational Technical Center",69,368647
+"292","Mississippi Delta Community College",22,176008
+"293","Mississippi Gulf Coast Community College",21,176071
+"294","Mississippi State University",41,176080
+"295","Mississippi University for Women",45,176035
+"296","Mississippi Valley State University",44,176044
+"297","Mitchell Community College",22,198987
+"298","Monongalia County Technical Education Center",69,237561
+"299","Montgomery College",21,163426
+"300","Montgomery Community College",23,199023
+"301","Moore Norman Technology Center",62,248606
+"302","Morehead State University",43,157386
+"303","Morgan State University",42,163453
+"304","Motlow State Community College",22,221096
+"305","Moultrie Technical College",61,140599
+"306","Mountain Empire Community College",23,232788
+"307","Mountain View College",22,226930
+"308","Murray State College",23,207236
+"309","Murray State University",43,157401
+"310","Nash Community College",22,199087
+"311","National Park Community College",22,106980
+"312","Navarro College",21,227146
+"313","New College of Florida",46,262129
+"314","New River Community College",22,232867
+"315","Nicholls State University",44,159966
+"316","Norfolk State University",43,232937
+"317","North Arkansas College",23,107460
+"318","North Carolina Central University",43,199157
+"319","North Central Texas College",21,224110
+"320","North Florida Community College",23,136145
+"321","North Georgia College & State University",45,140669
+"322","North Georgia Technical College",61,140678
+"323","North Lake College",21,227191
+"324","Northeast Alabama Community College",22,101897
+"325","Northeast Mississippi Community College",22,176169
+"326","Northeast Technology Center-Afton",62,420459
+"327","Northeast Technology Center-Kansas",62,432074
+"328","Northeast Technology Center-Pryor",62,418339
+"329","Northeast Texas Community College",22,227225
+"330","Northeastern Oklahoma A&M College",23,207290
+"331","Northeastern State University",43,207263
+"332","Northeastern Technical College",23,217837
+"333","Northern Kentucky University",44,157447
+"334","Northern Oklahoma College",22,207281
+"335","Northern Virginia Community College",21,232946
+"336","Northwest Florida State College",29,136233
+"337","Northwest Mississippi Community College",21,176178
+"338","Northwest Technical Institute",69,107488
+"339","Northwest Technology Center-Alva",62,366623
+"340","Northwest Technology Center-Fairview",62,407601
+"341","Northwest Vista College",21,420398
+"342","Northwest-Shoals Community College",22,101736
+"343","Northwestern Oklahoma State University",45,207306
+"344","Nunez Community College",23,158884
+"345","Oconee Fall Line Technical College",61,420431
+"346","Odessa College",22,227304
+"347","Ogeechee Technical College",61,366465
+"348","Okefenokee Technical College",61,248776
+"349","Oklahoma City Community College",21,207449
+"350","Oklahoma Panhandle State University",46,207351
+"351","Oklahoma State University-Oklahoma City",29,207397
+"352","Old Dominion University",41,232982
+"353","Owensboro Community and Technical College",22,247940
+"354","Ozarka College",23,107549
+"355","Palm Beach State College",21,136358
+"356","Palo Alto College",21,246354
+"357","Pamlico Community College",23,199263
+"358","Panola College",23,227386
+"359","Paris Junior College",22,227401
+"360","Pasco-Hernando Community College",21,136400
+"361","Patrick Henry Community College",22,233019
+"362","Pearl River Community College",22,176239
+"363","Pensacola State College",21,136473
+"364","Phillips Community College of the University of Arkansas",23,107619
+"365","Piedmont Community College",23,199324
+"366","Piedmont Technical College",22,218520
+"367","Piedmont Virginia Community College",22,233116
+"368","Pierpont Community and Technical College",23,443492
+"369","Pinellas Technical Education Center-Clearwater",69,136491
+"370","Pinellas Technical Education Center-St Petersburg",69,137087
+"371","Pioneer Technology Center",62,364627
+"372","Pitt Community College",21,199333
+"373","Polk State College",21,136516
+"374","Pontotoc Technology Center",62,206905
+"375","Potomac State College of West Virginia University",29,237701
+"376","Prairie View A & M University",43,227526
+"377","Prince George's Community College",21,163657
+"378","Pulaski Technical College",21,107664
+"379","Putnam Career and Technical Center",69,419420
+"380","Radford University",44,233277
+"381","Ralph R Willis Career and Technical Center",69,237491
+"382","Randolph Community College",22,199421
+"383","Ranger College",23,227687
+"384","Rappahannock Community College",23,233310
+"385","Red River Technology Center",62,250993
+"386","Redlands Community College",23,207069
+"387","Reid State Technical College",62,101994
+"388","Rich Mountain Community College",23,107743
+"389","Richland College",21,227766
+"390","Richmond Community College",23,199449
+"391","River Parishes Community College",23,436304
+"392","Roane State Community College",22,221397
+"393","Roane-Jackson Technical Center",69,364575
+"394","Roanoke-Chowan Community College",23,199467
+"395","Robeson Community College",22,199476
+"396","Rockingham Community College",23,199485
+"397","Rogers State University",46,207661
+"398","Rose State College",21,207670
+"399","Rowan-Cabarrus Community College",21,199494
+"400","Salisbury University",44,163851
+"401","Sam Houston State University",43,227881
+"402","Sampson Community College",23,199625
+"403","San Jacinto Community College",21,227979
+"404","Sandhills Community College",22,199634
+"405","Santa Fe College",21,137096
+"406","Savannah State University",45,140960
+"407","Savannah Technical College",61,140942
+"408","Seminole State College",23,207740
+"409","Seminole State College of Florida",21,137209
+"410","Shelton State Community College",22,102067
+"411","Shepherd University",45,237792
+"412","Sheridan Technical Center",69,137245
+"413","Snead State Community College",23,102076
+"414","South Arkansas Community College",23,107974
+"415","South Carolina State University",45,218733
+"416","South Georgia College",23,140997
+"417","South Georgia Technical College",61,141006
+"418","South Louisiana Community College",22,434061
+"419","South Piedmont Community College",23,197850
+"420","South Plains College",21,228158
+"421","South Texas College",29,409315
+"422","Southeast Arkansas College",23,107637
+"423","Southeast Kentucky Community and Technical College",22,157739
+"424","Southeastern Community College",23,199722
+"425","Southeastern Louisiana University",43,160612
+"426","Southeastern Oklahoma State University",45,207847
+"427","Southeastern Technical College",61,368911
+"428","Southern Arkansas University Tech",23,107992
+"429","Southern Crescent Technical College",61,139986
+"430","Southern Oklahoma Technology Center",62,365198
+"431","Southern Polytechnic State University",49,141097
+"432","Southern Union State Community College",22,251260
+"433","Southern University at New Orleans",44,160630
+"434","Southern West Virginia Community and Technical College",23,237817
+"435","Southside Virginia Community College",22,233639
+"436","Southwest Collegiate Institute for the Deaf",23,382911
+"437","Southwest Georgia Technical College",61,141158
+"438","Southwest Mississippi Community College",23,176354
+"439","Southwest Technology Center",62,368364
+"440","Southwest Tennessee Community College",21,221485
+"441","Southwest Texas Junior College",22,228316
+"442","Southwest Virginia Community College",22,233648
+"443","Southwestern Community College",23,199731
+"444","Southwestern Oklahoma State University",45,207865
+"445","Sowela Technical Community College",61,160579
+"446","Spartanburg Community College",22,218830
+"447","Stanly Community College",22,199740
+"448","Sul Ross State University",43,228501
+"449","Surry Community College",22,199768
+"450","Tallahassee Community College",21,137759
+"451","Tarleton State University",43,228529
+"452","Tarrant County College District",21,228547
+"453","Technical College of the Lowcountry",23,217712
+"454","Temple College",22,228608
+"455","Tennessee State University",42,221838
+"456","Tennessee Technological University",43,221847
+"457","Tennessee Technology Center at Athens",62,219596
+"458","Tennessee Technology Center at Covington",62,219921
+"459","Tennessee Technology Center at Crossville",62,221591
+"460","Tennessee Technology Center at Crump",62,221430
+"461","Tennessee Technology Center at Dickson",62,219994
+"462","Tennessee Technology Center at Elizabethton",62,220127
+"463","Tennessee Technology Center at Harriman",62,220251
+"464","Tennessee Technology Center at Hartsville",62,220279
+"465","Tennessee Technology Center at Hohenwald",62,220321
+"466","Tennessee Technology Center at Jacksboro",62,220394
+"467","Tennessee Technology Center at Jackson",62,221616
+"468","Tennessee Technology Center at Knoxville",62,221625
+"469","Tennessee Technology Center at Livingston",62,220640
+"470","Tennessee Technology Center at McKenzie",62,220756
+"471","Tennessee Technology Center at McMinnville",62,221607
+"472","Tennessee Technology Center at Memphis",62,220853
+"473","Tennessee Technology Center at Morristown",62,221050
+"474","Tennessee Technology Center at Murfreesboro",62,221102
+"475","Tennessee Technology Center at Nashville",62,248925
+"476","Tennessee Technology Center at Newbern",62,221236
+"477","Tennessee Technology Center at Paris",62,221281
+"478","Tennessee Technology Center at Pulaski",62,221333
+"479","Tennessee Technology Center at Ripley",62,221388
+"480","Tennessee Technology Center at Shelbyville",62,221494
+"481","Tennessee Technology Center at Whiteville",62,221634
+"482","Texarkana College",22,228699
+"483","Texas A & M International University",43,226152
+"484","Texas A & M University-Commerce",43,224554
+"485","Texas A & M University-Corpus Christi",43,224147
+"486","Texas A & M University-Galveston",46,228714
+"487","Texas A & M University-Kingsville",43,228705
+"488","Texas A & M University-Texarkana",44,224545
+"489","Texas Southern University",43,229063
+"490","Texas State Technical College Harlingen",22,229319
+"491","Texas State Technical College Waco",21,228680
+"492","Texas State Technical College-Marshall",23,408394
+"493","Texas State Technical College-West Texas",23,229328
+"494","Texas State University-San Marcos",43,228459
+"495","Texas Tech University",41,229115
+"496","Texas Tech University Health Sciences Center",49,229337
+"497","Texas Woman's University",42,229179
+"498","Thomas Nelson Community College",21,233754
+"499","Tidewater Community College",21,233772
+"500","Towson University",43,164076
+"501","Tri County Technology Center",62,418287
+"502","Tri-County Community College",23,199795
+"503","Tri-County Technical College",21,218885
+"504","Trident Technical College",21,218894
+"505","Trinity Valley Community College",21,225308
+"506","Troy University",43,102368
+"507","Tulsa Community College",21,207935
+"508","Tulsa Technology Center-Broken Arrow Campus",62,261393
+"509","Tulsa Technology Center-Lemley Campus",62,261375
+"510","Tulsa Technology Center-Riverside Campus",62,261384
+"511","Tyler Junior College",21,229355
+"512","University of Alabama at Birmingham",41,100663
+"513","University of Alabama in Huntsville",42,100706
+"514","University of Arkansas at Little Rock",43,106245
+"515","University of Arkansas at Monticello",45,106485
+"516","University of Arkansas at Pine Bluff",46,106412
+"517","University of Arkansas for Medical Sciences",49,106263
+"518","University of Arkansas-Fort Smith",46,108092
+"519","University of Baltimore",44,161873
+"520","University of Central Arkansas",43,106704
+"521","University of Central Florida",41,132903
+"522","University of Central Oklahoma",43,206941
+"523","University of Delaware",41,130943
+"524","University of Florida",41,134130
+"525","University of Georgia",41,139959
+"526","University of Houston",41,225511
+"527","University of Houston-Clear Lake",43,225414
+"528","University of Houston-Downtown",45,225432
+"529","University of Houston-Victoria",44,225502
+"530","University of Kentucky",41,157085
+"531","University of Louisiana at Lafayette",42,160658
+"532","University of Louisville",41,157289
+"533","University of Mary Washington",45,232681
+"534","University of Maryland Eastern Shore",44,163338
+"535","University of Memphis",41,220862
+"536","University of Mississippi",42,176017
+"537","University of Mississippi Medical Center",49,176026
+"538","University of Montevallo",45,101709
+"539","University of New Orleans",42,159939
+"540","University of North Alabama",44,101879
+"541","University of North Carolina at Asheville",46,199111
+"542","University of North Carolina at Chapel Hill",41,199120
+"543","University of North Carolina at Charlotte",42,199139
+"544","University of North Carolina at Greensboro",41,199148
+"545","University of North Carolina at Pembroke",45,199281
+"546","University of North Florida",43,136172
+"547","University of North Texas",41,227216
+"548","University of Oklahoma Norman Campus",41,207500
+"549","University of Science and Arts of Oklahoma",46,207722
+"550","University of South Alabama",43,102094
+"551","University of South Carolina-Aiken",46,218645
+"552","University of South Carolina-Beaufort",46,218654
+"553","University of South Carolina-Columbia",41,218663
+"554","University of South Carolina-Lancaster",23,218672
+"555","University of South Carolina-Salkehatchie",23,218681
+"556","University of South Carolina-Sumter",23,218690
+"557","University of South Carolina-Union",23,218706
+"558","University of South Carolina-Upstate",46,218742
+"559","University of Southern Mississippi",41,176372
+"560","University of West Alabama",45,101587
+"561","University of West Georgia",43,141334
+"562","Valdosta State University",43,141264
+"563","Vance-Granville Community College",22,199838
+"564","Vernon College",22,229504
+"565","Victoria College",22,229540
+"566","Virginia Commonwealth University",42,234030
+"567","Virginia Highlands Community College",23,233903
+"568","Virginia Military Institute",49,234085
+"569","Virginia State University",44,234155
+"570","Volunteer State Community College",21,222053
+"571","Wake Technical Community College",21,199856
+"572","Walters State Community College",22,222062
+"573","Waycross College",23,141307
+"574","Wayne Community College",22,199892
+"575","Weatherford College",22,229799
+"576","Wes Watkins Technology Center",62,418357
+"577","West Georgia Technical College",61,139278
+"578","West Kentucky Community and Technical College",22,157483
+"579","West Liberty University",46,237932
+"580","West Texas A & M University",43,229814
+"581","West Virginia School of Osteopathic Medicine",49,237880
+"582","West Virginia State University",46,237899
+"583","West Virginia University",41,238032
+"584","West Virginia University Institute of Technology",46,237950
+"585","West Virginia University at Parkersburg",29,237686
+"586","Western Carolina University",43,200004
+"587","Western Kentucky University",43,157951
+"588","Western Oklahoma State College",23,208035
+"589","Western Piedmont Community College",22,199908
+"590","Western Technology Center",62,418302
+"591","Western Texas College",23,229832
+"592","Westside Tech",69,138372
+"593","Wharton County Junior College",22,229841
+"594","Wilkes Community College",22,199926
+"595","Williamsburg Technical College",23,218955
+"596","Wilson Community College",23,199953
+"597","Winston-Salem State University",45,199999
+"598","Winter Park Tech",69,138488
+"599","Winthrop University",43,218964
+"600","Wiregrass Georgia Technical College",61,141255
+"601","Wiregrass Georgia Technical College",61,141255
+"602","Wood County School of Practical Nursing",69,238096
+"603","Wor-Wic Community College",22,164313
+"604","York Technical College",22,218991
+"605","Acadiana Technical College",61,159443
+"606","Arkansas State University",43,106458
+"607","Arkansas State University Mountain Home",23,420538
+"608","Atlanta Metropolitan College",22,138901
+"609","Atlantic Vocational-Technical Center",69,132374
+"611","Bowling Green Technical College",61,156338
+"612","Bradford Union Area Vocational-Technical Center",69,132675
+"613","Brevard Community College",21,132693
+"614","Caldwell Community College & Technical Institute",22,198118
+"615","Capital Area Technical College",61,158352
+"616","Cecil Community College",23,162104
+"618","Central LA Technical College",61,158088
+"619","Charlotte County Vocational-Technical Center",69,132976
+"620","Chattanooga State Technical Community College",21,219824
+"621","Clayton State University",45,139311
+"622","Community College of Baltimore County",21,434672
+"623","D.S. Lancaster Community College",23,231873
+"624","Darton College",22,138691
+"625","David G. Erwin Area Vocational-Technical Center",69,369419
+"626","East Georgia College",22,139621
+"627","Florida Agricultural & Mechanical University",43,133650
+"629","George Stone Area Vocational Center",69,134291
+"630","George T. Baker Aviation School",69,134307
+"631","Georgia College and State University",44,139861
+"632","Georgia Institute of Technology",42,139755
+"633","Gulf Coast Community College",22,134343
+"634","J.S. Reynolds Community College",21,232414
+"635","Jackson Memorial Hospital School of Radiology Technology",69,382300
+"636","Kanawha Valley Community & Technical College",23,445018
+"637","L.E. Fletcher Technical Community College",61,160481
+"638","Lake County Area Vocational-Technical Center",69,135179
+"639","Lee County Area Vocational-Technical Center",69,135267
+"640","Lee County High Technical Center North",69,431558
+"641","Lively Area Vocational-Technical Center",69,135276
+"642","Louisiana Delta Community College",23,440624
+"643","Louisiana State University Health Sciences Center - Shreveport",49,435000
+"644","Louisiana State University at Alexandria",46,159382
+"645","Louisiana State University at Eunice",22,159407
+"646","Louisiana State University in Shreveport",44,159416
+"647","Manatee Area Vocational-Technical Center",69,135407
+"648","Marion County School of Radiological Technology",69,419226
+"650","Martin County High School Adult Education Center",69,425162
+"651","Maynard A. Traviss Vocational-Technical Center",69,135522
+"654","Miami Lakes Technical Education Center",69,135647
+"655","Miami Skill Center",69,135656
+"656","Mid-Florida Technical Institute",69,135735
+"657","Mountwest Community & Technical College",23,444954
+"658","Nashville State Technical Community College",21,221184
+"659","New River Community & Technical College",23,447582
+"660","North Carolina A&T State University",43,199102
+"661","North Carolina School of the Arts",49,199184
+"662","North Carolina State University",41,199193
+"663","North Technical Education Center",69,136190
+"665","Northeast State Technical Community College",22,221908
+"666","Northeast Technical College",61,158769
+"667","Northeast Technology Center-Claremore",62,456560
+"668","Northshore Technical College",61,160667
+"669","Northwest Arkansas Community College",21,367459
+"670","Northwest LA Technical College",61,160010
+"671","Northwestern State University",44,160038
+"672","Okaloosa Applied Technology Center",69,433068
+"673","Oklahoma State University Main Campus",41,207388
+"674","Oklahoma State University Technical Branch-Okmulgee",29,207564
+"675","Orangeburg-Calhoun Technical College",22,218487
+"676","Orlando Vocational-Technical Center",69,136303
+"677","Paul D. Camp Community College",23,233037
+"678","Pellissippi State Technical Community College",21,221643
+"679","Radford M. Locklin Vocational-Technical Center",69,136659
+"680","Richard Bland College",23,233338
+"681","Ridge Vocational-Technical Center",69,136765
+"682","Robert Morgan Vocational-Technical Institute",69,136826
+"683","Saint Mary's College of Maryland",46,163912
+"685","Sarasota County Vocational-Technical Center",69,137120
+"686","Somerset Community and Technical College",22,157711
+"687","South Central LA Technical College",61,160913
+"688","South Dade Skill Center",69,137290
+"689","South Florida Community College",22,137315
+"690","South Technical Education Center",69,137360
+"691","Southern Arkansas University",44,107983
+"692","Southern University and A&M College at Baton Rouge",43,160621
+"693","Southern University in Shreveport",23,160649
+"694","St. Augustine Technical Center",69,137023
+"695","St. Johns River Community College",22,137281
+"696","St. Petersburg College",29,137078
+"698","State College of Florida, Manatee-Sarasota",21,135391
+"699","Stephen F. Austin State University",43,228431
+"701","Suwanee-Hamilton Area Vocational and Adult Center",69,137713
+"702","Tampa Bay Area Vocational-Technical Center",69,367875
+"703","Taylor County Area Vocational-Technical Center",69,137856
+"704","Tennessee Technology Center at Oneida",62,221582
+"705","Texas A & M Health Science Center",49,223214
+"710","The Citadel, the Military College of South Carolina",44,217864
+"711","Thomas P. Haney Area Vocational-Technical Center",69,137865
+"713","Tulsa County Area Voc Tech School Dist 18-Peoria",62,207607
+"715","University of Arkansas Community College at Batesville",23,106999
+"716","University of Arkansas Community College at Hope",23,107725
+"717","University of Arkansas Community College at Morrilton",23,107585
+"718","University of Arkansas, Fayetteville",41,106397
+"719","University of Louisiana at Monroe",43,159993
+"720","University of Maryland University College",49,163204
+"721","University of Maryland, Baltimore",49,163259
+"722","University of Maryland, Baltimore County",42,163268
+"724","University of North Carolina at Wilmington",43,199218
+"725","University of North Texas Health Science Center at Fort Worth",49,228909
+"727","University of South Florida",41,137351
+"728","University of Tennessee Health Science Center",49,221704
+"729","University of Tennessee at Chattanooga",43,221740
+"730","University of Tennessee at Martin",45,221768
+"731","University of Tennessee, Knoxville",41,221759
+"732","University of Texas Health Science Center at Houston",49,229300
+"733","University of Texas Health Science Center at San Antonio",49,228644
+"734","University of Texas M.D. Anderson Cancer Center",49,416801
+"735","University of Texas Medical Branch at Galveston",49,228653
+"736","University of Texas Southwestern Medical Center at Dallas",49,228635
+"737","University of Texas at Arlington",41,228769
+"738","University of Texas at Austin",41,228778
+"739","University of Texas at Brownsville",43,227377
+"740","University of Texas at Dallas",41,228787
+"741","University of Texas at El Paso",42,228796
+"742","University of Texas at San Antonio",42,229027
+"743","University of Texas at Tyler",43,228802
+"744","University of Texas of the Permian Basin",43,229018
+"745","University of Texas-Pan American",43,227368
+"746","University of Virginia",41,234076
+"747","University of Virginia's College at Wise",46,233897
+"748","University of West Florida",43,138354
+"750","Valencia Community College",21,138187
+"751","Virginia Tech",41,233921
+"752","Washington-Holmes Area Vocational-Technical Center",69,138284
+"753","West Technical Education Center",69,138363
+"754","William T. McFatter Vocational-Technical Center",69,138479
+"755","Withlachoochee Vocational and Adult Education Center",69,138497
