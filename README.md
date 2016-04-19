@@ -14,4 +14,9 @@ includes net price by sector for all 50 states. The ipeds.r file will
 call the functions.r file. 
 4.  Run the analysis.r file. This will create a file
 comparing net price with income for all 50 states.
-5. 
+5. Run the state_grants.r file. This will create a file for grant aid
+per fte.
+6. Run the loans.r file. This will create a file for loans per fte.
+7. Run the headcount.r file. This will create a file for headcount
+enrollment by sector.
+ 
