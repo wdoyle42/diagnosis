@@ -36,8 +36,7 @@ rm(list=ls())
 require(data.table); require(dplyr); require(bit64)
 
 ## data dirs
-#cddir <- '../../data/acs/'
-cddir<-'/Volumes/DOYLE_MAC/Data/acs/'
+cddir <- '../../data/acs/'
 mddir <- '../../data/misc/'
 addir <- '../../data/analysis/'
 
