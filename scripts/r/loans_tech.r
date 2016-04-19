@@ -144,4 +144,4 @@ inst2<-inst %>%
 ## Calculate loans/fte
 inst2$loan_fte<-inst2$sector_total_loan/inst2$sector_total_ug
    
-write.csv(inst2,file=paste0("loans_sector_tech.csv"))
+write.csv(inst2,file=paste0(addir,"loans_sector_tech.csv"))
