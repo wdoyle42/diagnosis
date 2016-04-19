@@ -82,7 +82,7 @@ inst$group[inst$group==2 & inst$ccipug==2]<-1
 
 inst<-filter(inst,is.na(group)==FALSE)
 
-## aggregate at state lavel
+## aggregate at state level
 inst<-inst %>%
     group_by(stabbr,year) %>%
         mutate(state_total_ug=sum(eftotlt,na.rm=TRUE)
