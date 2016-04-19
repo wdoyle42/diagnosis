@@ -1,2 +1,17 @@
-# diagnosis
+# College Affordability Diagnosis
 Collage Affordability Diagnosis Report Files
+
+These files will create the measures for all 50 states that serve as
+the basis for college affordability diagnosis. The files should be run
+in the following order:
+
+1. Using bash, run download.sh to get the acs files.
+2. Using [R](https://cran.r-project.org/), run the acs.r file. This
+   will create a file that includes family income by income group for
+   all 50 states.
+3. Run the ipeds.r file. This will create a file that
+includes net price by sector for all 50 states. The ipeds.r file will
+call the functions.r file. 
+4.  Run the analysis.r file. This will create a file
+comparing net price with income for all 50 states.
+5. 
