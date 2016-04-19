@@ -77,7 +77,7 @@ afford<-afford %>%
                          )
                )
 ## Output results
-#write.csv(afford,file=paste0(addir,"afford.csv"),row.names=FALSE)
+write.csv(afford,file=paste0(addir,"afford.csv"),row.names=FALSE)
 
 ## Create weighted average based on headcount
 headcount<-read.csv(paste0(addir,"headcount.csv"))
@@ -97,7 +97,7 @@ afford_total$percent<-(afford_total$net_price_ave/afford_total$income)*100
 
 ## Output
 
-#write.csv(afford_total, "../../output/reports/xlsx/afford_total_data.csv",row.names=FALSE)
+write.csv(afford_total, paste0(addir,"afford_total_data.csv"),row.names=FALSE)
 
 # #Calculate single number by state, weighted by pop in that income group
 afford_total_summary<-afford_total %>%
@@ -111,13 +111,13 @@ afford_total_summary13<-filter(afford_total_summary,year==2013)
 
 afford_total_summary13<-afford_total_summary13[order(afford_total_summary13$ave_percent),]
 
-write.csv(afford_total_summary13,file="../../output/reports/xlsx/afford_total_summary13.csv",row.names=FALSE)
+write.csv(afford_total_summary13,file=paste0(addir,"afford_total_summary13.csv"),row.names=FALSE)
 
 afford_total_summary08<-filter(afford_total_summary,year==2008)
 
 afford_total_summary08<-afford_total_summary08[order(afford_total_summary08$rank),]
 
-write.csv(afford_total_summary08,file="../../output/reports/xlsx/afford_total_summary08.csv",row.names=FALSE)
+write.csv(afford_total_summary08,file=paste0(addir,"afford_total_summary08.csv"),row.names=FALSE)
 
 afford8<-afford_total_summary%>%
     filter(year==2008)
@@ -125,6 +125,7 @@ afford8<-afford_total_summary%>%
 afford13<-afford_total_summary%>%
     filter(year==2013)
 
+## Change since 2008
 ac<-data.frame(afford8$stabbr,afford8$ave_percent,afford13$ave_percent)
 names(ac)<-c("stabbr","afford08","afford13")
 ac$change<-ac$afford08-ac$afford13
