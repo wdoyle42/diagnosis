@@ -1,8 +1,7 @@
 #!/bin/bash
 
 ##Change your download directory here
-download_dir=<YOUR DIRECTORY HERE>
-
+download_dir=../../acs/
 
 cd "$download_dir"
 
