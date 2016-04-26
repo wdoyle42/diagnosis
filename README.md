@@ -1,5 +1,5 @@
 # College Affordability Diagnosis
-Collage Affordability Diagnosis Report Files
+College Affordability Diagnosis Report Files
 
 These files will create the measures for all 50 states that serve as
 the basis for college affordability diagnosis. To begin, clone this
