@@ -7,7 +7,7 @@ directory onto your computer.
 
 The files should be run in the following order:
 
-1. Using bash, run download.sh to get the acs files.
+1. Using bash, run download.sh to get the acs files. You'll need wget for this script to work. 
 2. Using [R](https://cran.r-project.org/), run the acs.r file. This
    will create a file that includes family income by income group for
    all 50 states.
