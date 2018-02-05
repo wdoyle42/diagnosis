@@ -1,5 +1,5 @@
 # College Affordability Diagnosis
-Collage Affordability Diagnosis Report Files
+College Affordability Diagnosis Report Files
 
 These files will create the measures for all 50 states that serve as
 the basis for college affordability diagnosis. To begin, clone this
@@ -7,7 +7,7 @@ directory onto your computer.
 
 The files should be run in the following order:
 
-1. Using bash, run download.sh to get the acs files.
+1. Using bash, run download.sh to get the acs files. You'll need wget for this script to work. 
 2. Using [R](https://cran.r-project.org/), run the acs.r file. This
    will create a file that includes family income by income group for
    all 50 states.
