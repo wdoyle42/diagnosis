@@ -19,6 +19,7 @@
 ## -----------------------------------------------------------------------------
 ## check and download files function (ipeds)
 ## -----------------------------------------------------------------------------
+library(tidyverse)
 
 check.download.ipeds <- function(filenames, dir,...) {
     
@@ -26,7 +27,7 @@ check.download.ipeds <- function(filenames, dir,...) {
     dnld <- filenames[!(filenames %in% list.files(dir))]
 
     ## download files not in directory
-    base <- 'http://nces.ed.gov/ipeds/datacenter/data/'
+    base <- 'https://nces.ed.gov/ipeds/datacenter/data/'
     sapply(dnld, function(x) {
 
         message(paste0('\n Downloading ', x, '\n'))
@@ -117,7 +118,7 @@ build.dataset.ipeds <- function(filenames, datadir,
         if (!is.null(vars)) {
 
             message('\n Subsetting data by specified variables \n')
-            data <- data[,vars]
+            data <- data[,names(data)%in%vars]
         }
 
         ## get year from file name
@@ -136,12 +137,12 @@ build.dataset.ipeds <- function(filenames, datadir,
         } else if(i == 2) {
 
             ## first appending
-            result <- rbind(data0, data)
+            result <- full_join(data0, data)
 
         } else {
 
             ## append the rest
-            result <- rbind(result, data)
+            result <- full_join(result, data)
 
         }
     }

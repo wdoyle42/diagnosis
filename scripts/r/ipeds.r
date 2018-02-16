@@ -35,8 +35,8 @@ options(stringsAsFactors=FALSE)
 source('functions.r')
 
 ## data dirs
-cddir <- '../../data/acs/'
-rddir <- '../../data/ipeds/'
+#cddir <- '../../data/acs/'
+rddir <- './'
 mddir <- '../../data/misc/'
 addir <- '../../data/analysis/'
 
@@ -44,19 +44,19 @@ addir <- '../../data/analysis/'
 ## BUILD DATASETS 
 ## =============================================================================
 
-years<-2008:2013
+years<-2008:2015
 
 ## IPEDS institutional characteristics (using HD files)
 
-filenames<-paste0('HD',2008:2013,'.zip')
-var <- c('unitid','instnm','city','stabbr','control','sector','carnegie', 'ccipug')
+filenames<-paste0('HD',2008:2015,'.zip')
+var <- c('unitid','instnm','city','stabbr','control','sector','carnegie', 'ccipug','c15basic')
 attr.data <- build.dataset.ipeds(filenames=filenames, datadir = rddir, vars = var,years=years)
 
 ## IPEDS enrollments (using EFIA files)
 
-filenames <-paste0('EFIA',2009:2014,'.zip')
+filenames <-paste0('EFIA',2009:2016,'.zip')
 var <- c('unitid','fteug')
-enroll.data <- build.dataset.ipeds(filenames=filenames, datadir = rddir, vars = var,years=years)
+enroll.data <- build.dataset.ipeds(filenames=filenames, datadir = rddir, vars= var ,years=years)
 
 ## IPEDS student netprice (using SFA files)
 
@@ -65,7 +65,9 @@ filenames<-paste0(c("SFA0809",
              "SFA1011",
              "SFA1112",
              "SFA1213",
-                    "SFA1314"),
+             "SFA1314",
+             "SFA1415",
+             "SFA1516"),
                   ".zip"
                   )
 var <- c('unitid','npis412','npis422','npis432','npis442','npis452',
@@ -82,6 +84,12 @@ netprice.data <- build.dataset.ipeds(filenames=filenames, datadir = rddir,
 pattern <- '*\\.data\\b'; byvar <- c('unitid', 'year')
 inst <- merge.ipeds(pattern = pattern, byvar = byvar)
 
+## your file
+#inst_names<-mydf$inst_names
+
+## Filter this dataset to just be the ones you're interested in
+#inst<-inst%>%filter(instnm%in%inst_names)
+
 ## =============================================================================
 ## MAKE TIDY
 ## =============================================================================
@@ -90,7 +98,7 @@ inst <- merge.ipeds(pattern = pattern, byvar = byvar)
 require(reshape); require(plyr)
 
 ## vars that stay as is
-id <- c('unitid','year','instnm','city','stabbr','control','sector','carnegie','fteug','ccipug')
+id <- c('unitid','year','instnm','city','stabbr','control','sector','carnegie','fteug','ccipug','c15basic')
 
 ## vars that need reshaping
 measure <- c('npis412','npis422','npis432','npis442','npis452',
@@ -168,9 +176,14 @@ inst$group[inst$group==4 & inst$carnegie %in% c(15:16)]<-5
 
 inst$group[inst$sector==4]<-1
 
-## Reassign any asscoiate dominant 2 years from 4 years
+## Reassign any asscoiate dominant to 2 years from 4 years
 
 inst$group[inst$group==2 & inst$ccipug==2]<-1
+inst$group[inst$group==2& inst$cc15basic==14]<-1
+
+## Fix UM augusta
+
+inst$group[inst$unitid==161217]<-2
 
 ## =============================================================================
 ## CLEAN
@@ -218,3 +231,4 @@ write.csv(inst, file = paste0(addir, 'institutions.csv'), row.names = FALSE)
 ## =============================================================================
 ## END
 ################################################################################
+

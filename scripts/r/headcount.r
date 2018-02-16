@@ -32,10 +32,10 @@ source('functions.r')
 ## Pull IPEDS header data
 ## IPEDS institutional characteristics (using HD files)
 
-years<-c(2008,2013)
+years<-c(2008,2015)
 
-filenames=paste0("HD",c(2008,2013),".zip")
-var <- c('unitid','instnm','city','stabbr','control','sector','carnegie', 'ccipug')
+filenames=paste0("HD",c(2008,2015),".zip")
+var <- c('unitid','instnm','city','stabbr','control','sector','carnegie', 'ccipug',"c15basic")
 attr.data <- build.dataset.ipeds(filenames=filenames, datadir = rddir, vars = var,years=years)
 
 ## Pull EF<year>A to generate fte
@@ -79,6 +79,7 @@ inst$group[inst$sector==4]<-1
 
 ## Reassign any asscoiate dominant 2 years from 4 years
 inst$group[inst$group==2 & inst$ccipug==2]<-1
+inst$group[inst$group==2& inst$cc15basic==14]<-1
 
 inst<-filter(inst,is.na(group)==FALSE)
 
@@ -90,7 +91,7 @@ inst<-inst %>%
 
 inst<-inst %>%
     group_by(stabbr,year,group) %>%
-        summarize(sector_total_ug=sum(eftotlt,na.rm=TRUE),
+        dplyr::summarize(sector_total_ug=sum(eftotlt,na.rm=TRUE),
                   state_total_ug=max(state_total_ug,na.rm=TRUE)
                   )
                   

@@ -30,10 +30,6 @@ rddir <- '../../data/ipeds/'
 mddir <- '../../data/misc/'
 addir <- '../../data/analysis/'
 
-##constants
-
-my.labels=c("*****","****","***", "**" , "*")
-
 
 statelist<-c("AK", "AL" ,"AR", "AZ", "CA", "CO", "CT",  "DE", "FL",
 "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD",
@@ -50,7 +46,8 @@ inst<-dplyr::filter(inst,stabbr%in%(statelist))
 ## aggregate
 inst <- inst %>% 
     group_by(year, stabbr, group, faminccat) %>%
-        summarize(avecost = round(weighted.mean(x=netprice, w = fteug, na.rm = TRUE)))
+        dplyr::summarize(avecost = round(weighted.mean(x=netprice, w = fteug, na.rm = TRUE)))
+
 
 ## merge with acs
 
@@ -67,15 +64,6 @@ levels <- c('< 30k','30k to 48k','48k to 75k','75k to 110k','> 110k')
 ## reorder so that < 30k is first
 afford$faminccat <- factor(afford$faminccat, levels = levels)
 
-## Star Ratings
-afford<-afford %>%
-    group_by(year,group,faminccat)%>%
-        mutate(quant=cut(percent,
-                   breaks=quantile(percent,probs=seq(0,1,by=.2),na.rm=TRUE),
-                   labels=my.labels,
-                   include.lowest=TRUE
-                         )
-               )
 ## Output results
 write.csv(afford,file=paste0(addir,"afford.csv"),row.names=FALSE)
 
@@ -87,7 +75,7 @@ afford_total<-left_join(afford,headcount,by=c("stabbr","group","year"))
 ## Weighted Net Price by Income level
 afford_total<-afford_total%>%
     group_by(year,stabbr,faminccat) %>%
-        summarize(net_price_ave=weighted.mean(x=avecost,w=sector_total_ug,na.rm=TRUE),
+        dplyr::summarize(net_price_ave=weighted.mean(x=avecost,w=sector_total_ug,na.rm=TRUE),
                   income=max(aveinc),
                   inc_pct_pop=max(inc_pct_pop)
                   )
@@ -102,48 +90,18 @@ write.csv(afford_total, paste0(addir,"afford_total_data.csv"),row.names=FALSE)
 # #Calculate single number by state, weighted by pop in that income group
 afford_total_summary<-afford_total %>%
     group_by(year,stabbr) %>%
-        summarize(ave_percent=weighted.mean(x=percent,w=inc_pct_pop,na.rm=TRUE))%>%
+        dplyr::summarize(ave_percent=weighted.mean(x=percent,w=inc_pct_pop,na.rm=TRUE))%>%
             mutate(rank=rank(ave_percent))
 
 afford_total_summary$ave_percent=round(afford_total_summary$ave_percent,1)
-
-afford_total_summary13<-filter(afford_total_summary,year==2013)
-
-afford_total_summary13<-afford_total_summary13[order(afford_total_summary13$ave_percent),]
-
-write.csv(afford_total_summary13,file=paste0(addir,"afford_total_summary13.csv"),row.names=FALSE)
-
-afford_total_summary08<-filter(afford_total_summary,year==2008)
-
-afford_total_summary08<-afford_total_summary08[order(afford_total_summary08$rank),]
-
-write.csv(afford_total_summary08,file=paste0(addir,"afford_total_summary08.csv"),row.names=FALSE)
-
-afford8<-afford_total_summary%>%
-    filter(year==2008)
-
-afford13<-afford_total_summary%>%
-    filter(year==2013)
-
-## Change since 2008
-ac<-data.frame(afford8$stabbr,afford8$ave_percent,afford13$ave_percent)
-names(ac)<-c("stabbr","afford08","afford13")
-ac$change<-ac$afford08-ac$afford13
-length(ac$change[ac$change<0])
 
 ## Collapse income categories: simple mean across groups
 
 afford2<-afford %>%
     group_by(year,stabbr,group) %>%
-        summarize(ave_percent=(mean(percent,na.rm=TRUE)))%>%
+        dplyr::summarize(ave_percent=(mean(percent,na.rm=TRUE)))%>%
             group_by(year,group) %>%            
-            mutate(quant=cut(ave_percent,
-                   breaks=quantile(ave_percent,probs=seq(0,1,by=.2),na.rm=TRUE),
-                   labels=my.labels,
-                   include.lowest=TRUE
-                             ),
-                   rank=rank(ave_percent, na.last=FALSE)
-               )
+            dplyr::mutate(rank=rank(ave_percent, na.last=FALSE))
 
 write.csv(afford2,file=paste0(addir,"afford_overall.csv"),row.names=FALSE)
 

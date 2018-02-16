@@ -4,27 +4,26 @@
 ## <FILE> acs.r
 ## <AUTH> Will Doyle and Benjamin Skinner
 ## <INIT> 16 June 2015
+## <REV> 16 Feb 2018
 ##
 ################################################################################
 
 ## PURPOSE
 
-
-
-## The purpose of this file is to clean ACS files. It uses the 3 year rolling
-## estimates starting in 2008 and ending in 2013. The years of interest are 2008
-## to 2013. These are the last years in each file.
+## The purpose of this file is to clean ACS files. It uses the 1 year 
+## estimates starting in 2008 and ending in 2016. The years of interest are 2008
+## to 2015. These are the last years in each file.
 
 ## LARGE FILES NOTE ------------------------------------------------------------
 ##
 ## The required ACS files,
 ##
-## ss<09-13>pus<a-d>.csv
+## ss<09-16>pus<a-d>.csv
 ##
 ## are very large. They are from the csv_hus.zip files, which can be
 ## downloaded from the US census site:
-## http://www2.census.gov/programs-surveys/acs/data/pums/2013/3-Year/csv_hus.zip
-## You mayneed to use -unar- rather than -unzip- to open it. The files
+## http://www2.census.gov/programs-surveys/acs/data/pums/
+## You may need to use -unar- rather than -unzip- to open it. The files
 ## can be stored in data/acs dir or elsewhere and linked with symbolic
 ## link.
 
@@ -45,10 +44,10 @@ addir <- '../../data/analysis/'
 ## =============================================================================
 
 ## file list (entire US file is split into 4 smaller ones with a-d endings)
-files <- letters[1:4]
+files <- letters[1:2]
 
 ## years
-years <- c('08','09','10','11','12','13')
+years <- c('08','09','10','11','12','13','14','15','16')
 
 ## double loop through reading in data: within each year, combine/set data
 for (y in 1:length(years)) {
@@ -89,7 +88,7 @@ for (y in 1:length(years)) {
 
     ## bind parts into whole; remove parts (help memory)
     message(paste0('\nBinding partial datasets to year dataset\n'))
-    d <- rbind(d1, d2, d3, d4); rm(list = c('d1','d2','d3','d4'))
+    d <- rbind(d1, d2); rm(list = c('d1','d2'))
 
     ## -------------------------------------------------------------------------
     ## ADD INCOME CUTS
@@ -127,7 +126,7 @@ for (y in 1:length(years)) {
     ## aggregate
     message(paste0('\nAggregate weighted income by state and faminccat\n'))
     d <- d %>% group_by(stabbr, faminccat) %>%
-        summarize(aveinc = round(weighted.mean(fincp, w = wgtp)), #mean income in group, weighted
+        dplyr::summarize(aveinc = round(weighted.mean(fincp, w = wgtp)), #mean income in group, weighted
                   inc_pop=sum(wgtp), #population in group
                   state_total_pop=min(state_total_pop) #total pop (same across all levels)
                   )
@@ -153,9 +152,9 @@ for (y in 1:length(years)) {
 
 ## bind yearly datasets into one
 message(paste0('\nBind yearly datasets into one\n'))
-d <- data.frame(rbind(d2008, d2009, d2010, d2011, d2012,d2013))
+d <- data.frame(rbind(d2008, d2009, d2010, d2011, d2012,d2013,d2014,d2015))
 
-rm(list = c('d2008','d2009','d2010','d2011','d2012','d2013'))
+rm(list = c('d2008','d2009','d2010','d2011','d2012','d2013','d2014','d2015'))
 
 ## Create pct population variable
 d$inc_pct_pop<-(d$inc_pop/d$state_total_pop)*100
